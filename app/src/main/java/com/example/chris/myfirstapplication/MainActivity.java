@@ -31,6 +31,32 @@ public class MainActivity extends AppCompatActivity {
      * Count
      * @param view -- action clicking on the countButton
      */
+
+    //Show left Toast
+
+    /*public void toastLeft (View view){
+        Toast leftToast = Toast.makeText(this,"Left Toast!",Toast.LENGTH_SHORT);
+        leftToast.show();
+    }*/
+
+    //Left Button Snackbar
+
+    public void snackbarLeft(View view){
+    }
+
+    //Show middle Toast
+    public void toastMiddle(View view){
+        Toast middleToast = Toast.makeText(this,"Middle Toast!",Toast.LENGTH_SHORT);
+        middleToast.show();
+    }
+
+    //Show right Toast
+    public void toastRight(View view){
+        Toast rightToast = Toast.makeText(this,"Right Toast!",Toast.LENGTH_SHORT);
+        rightToast.show();
+    }
+
+
     public void countMe (View view){
         //Get the text view
         TextView showCountTextView= (TextView) findViewById(R.id.textView);
